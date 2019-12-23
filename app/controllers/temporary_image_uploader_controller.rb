@@ -1,0 +1,2 @@
+class TemporaryImageUploaderController < ApplicationController
+end
