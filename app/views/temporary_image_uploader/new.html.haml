@@ -1,0 +1,5 @@
+= link_to "トップページへ", temporary_image_uploader_index_path
+= form_with(model: @temporary_image, url: temporary_image_uploader_index_path) do |f|
+  = f.label :image, "画像をここからアップロード"
+  = f.file_field :image
+  = f.submit "投稿する"
