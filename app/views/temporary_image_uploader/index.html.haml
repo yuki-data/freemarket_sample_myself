@@ -1,1 +1,6 @@
+- flash.each do |key, value|
+  = content_tag(:div, value)
 .temporary こんにちは
+= link_to "画像を投稿する", new_temporary_image_uploader_path
+- @temporary_images.each do |image|
+  = image_tag image.image_url, alt: '', height: '', width: '', class: ''
