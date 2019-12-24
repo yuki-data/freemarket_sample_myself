@@ -1,0 +1,2 @@
+class TemporaryImage < ApplicationRecord
+end
