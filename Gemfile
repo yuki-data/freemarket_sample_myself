@@ -82,6 +82,10 @@ gem 'fog-aws'
 # 画像のリサイズ
 gem 'mini_magick'
 
+# fogがexconを使用しいているが、exconの0.71.0未満には脆弱性があるとのこと
+# https://github.com/yuki-data/freemarket_sample_myself/network/alert/Gemfile.lock/excon/open
+gem "excon", ">= 0.71.0"
+
 # hamlをテンプレートで使うため
  gem "haml-rails"
 
