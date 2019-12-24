@@ -1,0 +1,22 @@
+From d69d7f4cb06f97fe738e233a5d7a31b0d4c394a8 Mon Sep 17 00:00:00 2001
+From: yuki-data <45279969+yuki-data@users.noreply.github.com>
+Date: Tue, 24 Dec 2019 13:23:16 +0900
+Subject: [PATCH] set branch to 'development' for capistrano deploy
+
+---
+ config/deploy/production.rb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config/deploy/production.rb b/config/deploy/production.rb
+index b43681f..a3f4fc5 100644
+--- a/config/deploy/production.rb
++++ b/config/deploy/production.rb
+@@ -60,4 +60,4 @@ server '54.92.8.56', user: 'ec2-user', roles: %w{app db web}
+ #     # password: "please use keys"
+ #   }
+ 
+-set :branch, 'master'
++set :branch, 'development'
+-- 
+2.23.0
+
