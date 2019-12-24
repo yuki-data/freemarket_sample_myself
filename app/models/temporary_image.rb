@@ -1,2 +1,3 @@
 class TemporaryImage < ApplicationRecord
+  mount_uploader :image, ImageUploader
 end
