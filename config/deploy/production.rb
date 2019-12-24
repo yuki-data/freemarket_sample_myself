@@ -59,3 +59,5 @@ server '54.92.8.56', user: 'ec2-user', roles: %w{app db web}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+set :branch, 'master'
