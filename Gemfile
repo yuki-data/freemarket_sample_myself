@@ -77,6 +77,8 @@ end
 
 # carrierwaveで画像アップロード
 gem 'carrierwave'
+# 画像のリサイズ
+gem 'mini_magick'
 
 # hamlをテンプレートで使うため
  gem "haml-rails"
