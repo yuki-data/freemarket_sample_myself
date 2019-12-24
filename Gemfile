@@ -75,6 +75,9 @@ group :development, :test do
   gem 'capistrano3-unicorn'
 end
 
+# carrierwaveで画像アップロード
+gem 'carrierwave'
+
 # hamlをテンプレートで使うため
  gem "haml-rails"
 
