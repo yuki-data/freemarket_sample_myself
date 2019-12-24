@@ -75,6 +75,13 @@ group :development, :test do
   gem 'capistrano3-unicorn'
 end
 
+# carrierwaveで画像アップロード
+gem 'carrierwave'
+# 画像をS3にアップロード
+gem 'fog-aws'
+# 画像のリサイズ
+gem 'mini_magick'
+
 # hamlをテンプレートで使うため
  gem "haml-rails"
 
